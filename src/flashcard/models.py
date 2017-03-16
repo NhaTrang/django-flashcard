@@ -6,7 +6,7 @@ from django.db import models
 
 from datetime import datetime, timedelta
 
-from algorithm import interval
+from .algorithm import interval
 
 
 class FlashCardByPracticeManager(models.Manager):
